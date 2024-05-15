@@ -1,0 +1,30 @@
+{
+  "name": "m6node-day-6-classwork-request-logging-middleware",
+  "version": "1.0.0",
+  "description": "In this assignment, i have developed a Node.js application using Express and created a middleware function for logging details about incoming requests. This middleware will capture essential information such as: the request method, URL, IP address, and timestamps thus providing insights about the traffic received by application.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex21c/m6node-day-6-classwork-request-logging-middleware"
+  },
+  "keywords": [
+    "middleware",
+    "request logging middleware",
+    "node.js",
+    "express.js",
+    "morgan",
+    "alex21c"
+  ],
+  "author": "Abhishek kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex21c/m6node-day-6-classwork-request-logging-middleware/issues"
+  },
+  "homepage": "https://github.com/Alex21c/m6node-day-6-classwork-request-logging-middleware#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
