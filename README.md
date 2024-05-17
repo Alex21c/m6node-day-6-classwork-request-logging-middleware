@@ -21,6 +21,63 @@ npm install
 npm run start
 ```
 
+## API End Point #1
+```javascript
+GET /
+```
+
+### API Response Example
+```
+Logging using Morgan Middleware!
+```
+
+## API End Point #2
+```javascript
+GET /products
+```
+
+### API Response Example
+```javascript
+{
+    "Gold": "MMTC PAP 999.9 fine Gold (10gm)",
+    "Silver": "MMTC PAP 999.9 fine Gold (250gm)",
+    "TermInsurance": "LIC Term Insurance",
+    "EmergencyFund": "₹50 Lakhs"
+}
+```
+
+## API End Point #3
+```javascript
+GET /add-new-product
+
+example body:
+{
+    "productName": "World Tour",
+    "description": "Tour around the world!"
+}
+```
+
+### API Response Example
+```bash
+product: "World Tour" shall be added after approval!
+```
+
+## API End Point #4
+```javascript
+GET /sign-in
+
+example body:
+{
+    "email": "admin@alex21c.com",
+    "password": "admin123"
+}
+```
+
+### API Response Example
+```
+okay, let me write sign-in logic before!
+```
+
 ## Tech. Stack Used:
 + [NodeJS](https://nodejs.org/en/) 
 + [ExpressJS](https://expressjs.com/) 
