@@ -2,7 +2,7 @@
 ![](thumbnail.png)
 
 ## Description:
-In this assignment, i have developed a Node.js application using Express and created a middleware function for logging details about incoming requests. This middleware will capture essential information such as:
+In this assignment, i have developed a Node.js application using Express and implemented [Morgan](https://www.npmjs.com/package/morgan) middleware for logging details about incoming requests. This middleware will capture essential information such as:
 + the request method,
 + URL, 
 + IP address, and
